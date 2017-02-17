@@ -336,13 +336,13 @@ static NSString * const kFSActionSheetCellIdentifier = @"kFSActionSheetCellIdent
     return 2;
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return (section == 1)?1:_items.count;
+    return (section == 1) ? 1 : _items.count;
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return FSActionSheetRowHeight;
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
-    return (section == 1)?kFSActionSheetSectionHeight:CGFLOAT_MIN;
+    return (section == 1) ? kFSActionSheetSectionHeight:CGFLOAT_MIN;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     FSActionSheetCell *cell = [tableView dequeueReusableCellWithIdentifier:kFSActionSheetCellIdentifier];
