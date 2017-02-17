@@ -86,7 +86,7 @@
         headerImageView.layer.masksToBounds = YES;
         [self.scrollView addSubview:headerImageView];
     }
-    self.scrollView.contentSize = CGSizeMake((imageWidth + margin) * self.images.count,0 );
+    self.scrollView.contentSize = CGSizeMake((imageWidth + margin) * self.images.count, 0);
 }
 
 
