@@ -219,7 +219,7 @@
 		187F0C221E56962D0062EEA8 /* LHPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				187F0C9F1E569AE20062EEA8 /* XLPhotoBrowser */,
+				187F0C9F1E569AE20062EEA8 /* PhotoBrowser */,
 				187F0C261E56962D0062EEA8 /* AppDelegate.h */,
 				187F0C271E56962D0062EEA8 /* AppDelegate.m */,
 				187F0C291E56962D0062EEA8 /* ViewController.h */,
@@ -258,12 +258,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		187F0C9F1E569AE20062EEA8 /* XLPhotoBrowser */ = {
+		187F0C9F1E569AE20062EEA8 /* PhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
 				18E2BE7B1E56E7A900396801 /* Vender */,
 			);
-			name = XLPhotoBrowser;
+			name = PhotoBrowser;
 			path = "/Users/apple/Desktop/XLPhotoBrowser-master/XLPhotoBrowserDemo/../XLPhotoBrowser";
 			sourceTree = "<absolute>";
 		};
