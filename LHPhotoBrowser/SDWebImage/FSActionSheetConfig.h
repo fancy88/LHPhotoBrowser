@@ -16,14 +16,14 @@ typedef void(^FSActionSheetHandler)(NSInteger selectedIndex);
 // 选项类型枚举
 typedef NS_ENUM(NSInteger, FSActionSheetType) {
     FSActionSheetTypeNormal = 0,
-    FSActionSheetTypeHighlighted,
+    FSActionSheetTypeHighlighted
 };
 
 // 内容偏移枚举
 typedef NS_ENUM(NSInteger, FSContentAlignment) {
     FSContentAlignmentLeft = 0, ///< 内容紧靠左边
     FSContentAlignmentCenter, ///< 内容居中
-    FSContentAlignmentRight, ///< 内容紧靠右边
+    FSContentAlignmentRight  ///< 内容紧靠右边
 };
 
 
