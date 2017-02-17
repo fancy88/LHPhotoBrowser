@@ -81,7 +81,6 @@
         headerImageView.xl_width = imageWidth;
         headerImageView.xl_height = imageWidth;
         headerImageView.image = self.images[i];
-        headerImageView.tag = i;
         headerImageView.contentMode = UIViewContentModeScaleAspectFill;
         headerImageView.layer.masksToBounds = YES;
         [self.scrollView addSubview:headerImageView];
