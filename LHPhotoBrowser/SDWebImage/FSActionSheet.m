@@ -19,10 +19,10 @@ CGFloat const kFSActionSheetSectionHeight = 10; ///< 分区间距
 @property (nonatomic, copy) FSActionSheetHandler selectedHandler;
 
 @property (nonatomic, strong) UIWindow *window;
-@property (nonatomic, weak)   UIView *controllerView;
-@property (nonatomic, strong) UIView *backView;
+@property (nonatomic, weak)   UIView   *controllerView;
+@property (nonatomic, strong) UIView   *backView;
 @property (nonatomic, strong) UITableView *tableView;
-@property (nonatomic, weak)   UILabel *titleLabel;
+@property (nonatomic, weak)   UILabel  *titleLabel;
 
 @property (nonatomic, strong) NSLayoutConstraint *heightConstraint; ///< 内容高度约束
 
@@ -60,7 +60,7 @@ static NSString * const kFSActionSheetCellIdentifier = @"kFSActionSheetCellIdent
     
     self.title = title?:@"";
     self.delegate = delegate;
-    self.cancelTitle = (cancelButtonTitle && cancelButtonTitle.length != 0)?cancelButtonTitle:@"取消";
+    self.cancelTitle = (cancelButtonTitle && cancelButtonTitle.length != 0)? cancelButtonTitle:@"取消";
     self.items = titleItems;
     
     [self addSubview:self.tableView];
@@ -219,8 +219,8 @@ static NSString * const kFSActionSheetCellIdentifier = @"kFSActionSheetCellIdent
 
 /*! @brief 展示并绑定block回调 */
 - (void)showWithSelectedCompletion:(FSActionSheetHandler)selectedHandler {
-    self.selectedHandler = selectedHandler;
     
+    self.selectedHandler = selectedHandler;
     _backView = [[UIView alloc] init];
     _backView.alpha = 0;
     _backView.backgroundColor = [UIColor blackColor];

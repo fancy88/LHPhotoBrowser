@@ -64,7 +64,7 @@
     [self.scrollView.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
     CGFloat imageWidth = 100;
     CGFloat margin = 10;
-    for (int i = 0 ; i < self.images.count; i ++) {
+    for (int i = 0 ; i < self.images.count; i++) {
         UIImageView *headerImageView = [[UIImageView alloc] init];
         headerImageView.tag = i;
         headerImageView.userInteractionEnabled = YES;
