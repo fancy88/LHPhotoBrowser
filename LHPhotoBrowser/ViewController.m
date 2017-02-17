@@ -50,9 +50,7 @@
         UIImage *image = [UIImage imageNamed:string];
         [self.images addObject:image];
     }
-    
     [self resetScrollView];
-
 }
 
 - (void)clearImageCache
