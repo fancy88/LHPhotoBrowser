@@ -141,7 +141,7 @@
     self.progressView.xl_centerY = self.xl_height * 0.5;
 }
 
-#pragma mark    -   UIScrollViewDelegate
+#pragma mark - UIScrollViewDelegate
     
 - (void)scrollViewDidZoom:(UIScrollView *)scrollView
 {
@@ -164,7 +164,7 @@
     self.userInteractionEnabled = YES;
 }
 
-#pragma mark    -   private method - 手势处理,缩放图片
+#pragma mark - private method - 手势处理,缩放图片
 
 - (void)singleTap:(UITapGestureRecognizer *)singleTap
 {
@@ -234,7 +234,7 @@
     self.minimumZoomScale = 1.0;
 }
 
-#pragma mark    -   public method
+#pragma mark - public method
 
 /**
  *  显示图片

@@ -650,7 +650,7 @@
         if (![url isKindOfClass:[NSURL class]]) {
             XLPBLog(@"高清大图URL数据有问题,不是NSString也不是NSURL , 错误数据:%@ , 图片索引:%zd",url,index);
         }
-//        NSAssert([url isKindOfClass:[NSURL class]], @"高清大图URL数据有问题,不是NSString也不是NSURL");
+//  NSAssert([url isKindOfClass:[NSURL class]], @"高清大图URL数据有问题,不是NSString也不是NSURL");
         return url;
     } else if(self.images.count>index) {
         if ([self.images[index] isKindOfClass:[NSURL class]]) {
