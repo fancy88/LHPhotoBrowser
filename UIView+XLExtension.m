@@ -109,7 +109,7 @@ static char RedTipViewKey;
 }
 
 
-#pragma mark    -   计算frame
+#pragma mark - 计算frame
 
 - (CGSize)xl_size
 {
@@ -320,7 +320,7 @@ static char RedTipViewKey;
  *  @param lineWidth  线宽
  *  @param lineMargin 每条虚线之间的间距
  *  @param lineLength 每条虚线的长度
- *  @param lineColor 每条虚线的颜色
+ *  @param lineColor  每条虚线的颜色
  */
 - (void)xl_addDottedLineBorderWithLineWidth:(CGFloat)lineWidth lineMargin:(CGFloat)lineMargin lineLength:(CGFloat)lineLength lineColor:(UIColor *)lineColor;
 {

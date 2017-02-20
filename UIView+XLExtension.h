@@ -40,7 +40,6 @@ typedef NS_ENUM(NSUInteger, XLAnimationType){
 @property (nonatomic, assign) CGFloat y XLDeprecated("请使用xl_y");
 @property (nonatomic, assign) CGFloat centerX XLDeprecated("请使用xl_centerX");
 @property (nonatomic, assign) CGFloat centerY XLDeprecated("请使用xl_centerY");
-
 @property (nonatomic, assign) CGFloat xl_height;
 @property (nonatomic, assign) CGFloat xl_width;
 @property (nonatomic, assign) CGFloat xl_x;
