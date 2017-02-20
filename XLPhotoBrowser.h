@@ -14,7 +14,7 @@
  */
 typedef NS_ENUM(NSUInteger, XLPhotoBrowserStyle){
     /**
-     *  长按图片弹出功能组件,底部一个PageControl
+     * 长按图片弹出功能组件,底部一个PageControl
      */
     XLPhotoBrowserStylePageControl = 1,
     /**
@@ -32,7 +32,7 @@ typedef NS_ENUM(NSUInteger, XLPhotoBrowserStyle){
  */
 typedef NS_ENUM(NSUInteger, XLPhotoBrowserPageControlAliment){
     /**
-     * pageControl在右边
+     *  pageControl在右边
      */
     XLPhotoBrowserPageControlAlimentRight = 1,
     /**
@@ -46,7 +46,7 @@ typedef NS_ENUM(NSUInteger, XLPhotoBrowserPageControlAliment){
  */
 typedef NS_ENUM(NSUInteger, XLPhotoBrowserPageControlStyle){
     /**
-     * 系统自带经典样式
+     *  系统自带经典样式
      */
     XLPhotoBrowserPageControlStyleClassic = 1,
     /**
@@ -70,8 +70,8 @@ typedef NS_ENUM(NSUInteger, XLPhotoBrowserPageControlStyle){
  *  点击底部actionSheet回调,对于图片添加了长按手势的底部功能组件
  *
  *  @param browser 图片浏览器
- *  @param actionSheetindex   点击的actionSheet索引
- *  @param currentImageIndex    当前展示的图片索引
+ *  @param actionSheetindex    点击的actionSheet索引
+ *  @param currentImageIndex   当前展示的图片索引
  */
 - (void)photoBrowser:(XLPhotoBrowser *)browser clickActionSheetIndex:(NSInteger)actionSheetindex currentImageIndex:(NSInteger)currentImageIndex;
 
@@ -130,11 +130,11 @@ typedef NS_ENUM(NSUInteger, XLPhotoBrowserPageControlStyle){
 /**
  *  当前显示的图片位置索引 , 默认是0
  */
-@property (nonatomic, assign ) NSInteger currentImageIndex;
+@property (nonatomic, assign) NSInteger currentImageIndex;
 /**
  *  浏览的图片数量,大于0
  */
-@property (nonatomic, assign ) NSInteger imageCount;
+@property (nonatomic, assign) NSInteger imageCount;
 /**
  *  datasource
  */
@@ -142,11 +142,11 @@ typedef NS_ENUM(NSUInteger, XLPhotoBrowserPageControlStyle){
 /**
  *  delegate
  */
-@property (nonatomic , weak) id<XLPhotoBrowserDelegate> delegate;
+@property (nonatomic, weak) id<XLPhotoBrowserDelegate> delegate;
 /**
  *  browser style
  */
-@property (nonatomic , assign) XLPhotoBrowserStyle browserStyle;
+@property (nonatomic, assign) XLPhotoBrowserStyle browserStyle;
 /**
  *  占位图片,可选(默认是一张灰色的100*100像素图片) 
  *  当没有实现数据源中placeholderImageForIndex方法时,默认会使用这个占位图片
