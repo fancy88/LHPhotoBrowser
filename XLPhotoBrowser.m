@@ -958,7 +958,7 @@
         return nil;
     }
     
-    //检查数据源对象是否一直，如有需要自行打开
+//    检查数据源对象是否一直，如有需要自行打开
 //    Class imageClass = [images.firstObject class];
 //    for (id image in images) {
 //        if (![image isKindOfClass:imageClass]) {
